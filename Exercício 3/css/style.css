@@ -1,0 +1,193 @@
+body
+{
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #f6f6f6 !important;
+  font-size: 14px;
+  line-height: 1.8;
+  overflow-x: hidden;
+}
+
+.header ul li a, h5, .frames p
+{
+  text-transform: uppercase;
+}
+
+.header ul
+{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.header ul, nav ul
+{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.header ul li, nav ul li
+{
+  float: left;
+  padding: 2px;
+}
+
+.header ul li a
+{
+  color: #364e72; 
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.search input
+{
+  margin: 5px;
+  background-color: #f6f6f6;
+  border: 1px solid #364e72;
+}
+
+nav ul li
+{
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  padding: 35px 18px;
+}
+
+nav ul li a
+{
+  color: #444444;
+}
+
+nav ul li:hover
+{
+  background-color: #103d63;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+nav ul li a:hover
+{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.news a h5
+{
+  color: #444444;
+  font-weight: 700;
+}
+
+.news p
+{
+  font-size: 13px;
+  font-weight: 500;
+}
+
+a .read-more
+{
+  text-align: right;
+  color: #444444;
+}
+
+.channels
+{
+  background-color: #222a36;
+  margin-top: 50px;
+  padding: 50px;
+}
+
+.channels h5
+{
+  color: #ffffff;
+}
+
+.title:before
+{
+  position: absolute;
+  width: 10%;
+  top: 40px;
+  right: 45%;
+  left: auto;
+  content: '';
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+
+.title:after
+{
+  position: absolute;
+  width: 50%;
+  top: 40px;
+  right: 25%;
+  left: auto;
+  content: '';
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.frames a p
+{
+  font-weight: 600;
+  padding: 30px;
+  color: #fff;
+  border-radius: 2px;
+}
+
+.frames a p:hover
+{
+  text-decoration: underline #ffffff;
+}
+
+.bolsas-estagios
+{
+  background-color: #009fdf;
+}
+
+.bibliotecas-digitais
+{
+  background-color: #222a36;
+}
+
+.biblioteca
+{
+  background-color: #fc7a00;
+}
+
+.internacional
+{
+  background-color: #47cf08;
+}
+
+.laboratorios
+{
+  background-color: #222a36;
+}
+
+.lists li a
+{
+  color: #222a36;
+  font-size: 13px;
+}
+
+.list-group-flush .list-group-item
+{
+  padding-left: 0;
+}
+
+.footer
+{
+  color: #999;
+  font-size: 14px;
+  background: #222a36;
+  padding: 30px;
+}
+
+.credits a
+{
+  color: #999;
+}
+
+.credits a:hover
+{
+  color: #999;
+}
